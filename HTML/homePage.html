@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Home Page
+    </title>
+
+    <meta name="description"
+        content="Here you can find all the offers and discounts organized in one place for Saudi Stores">
+
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" type="text/css" href="../CSS/homPagStyles.css">
+</head>
+
+<body>
+    <header>
+        <!-- Page header with logo and navigation links -->
+        <img id="logo" src="../images/offer.png">
+        <nav>
+            <ul>
+                <li><a href="homePage.html">Home</a></li>
+                <li><a href="restaurantsPage.html">Restaurants</a></li>
+                <li><a href="cafesPage.html">Cafes</a></li>
+                <li><a href="storesPage.html">Stores</a></li>
+                <li><a href="eComPage.html">E-commerce</a></li>
+                <li><a href="whereTGPage.html">Where to go</a></li>
+
+                <li id="FB"><button href=""> Sign in </a></li>
+                <li><button href=""> Setting </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br>
+    <section>
+        <!-- Page content section -->
+        <div id="searchContainer">
+            <!-- Search bar container -->
+            <form action="/search" method="GET">
+                <input type="text" name="q" placeholder="Search..." />
+                <input type="submit" value="Search" />
+            </form>
+        </div>
+
+        <div id="abUsContainer">
+            <!-- About us section -->
+            <h1><u> About us </u> </h1>
+            <h3> Here you can find all the offers and discounts organized in one place
+                without having to waste your time searching in social media accounts
+                <blockquote> Our Vision </blockquote>
+                <q>Believe you can, and you're halfway there.</q>
+                <cite> Theodore Roosevelt </cite>
+            </h3>
+        </div>
+
+        <div id="CategoriesContainer">
+            <!-- Categories container -->
+            <div class="categoryContainer">
+                <!-- Category and details section -->
+                <a class="category" href="cafesPage.html"><img src="../images/cafe.png" alt=""></a>
+                <img class="detail" src="../images/tim.jpeg" alt="">
+                <img class="detail" src="../images/barns.jpeg" alt="">
+                <img class="detail" src="../images/dunkin.jpeg" alt="">
+            </div>
+            <div class="categoryContainer">
+                <a class="category" href="restaurantsPage.html"><img src="../images/resta.png" alt=""></a>
+                <img class="detail" src="../images/shrimplus.jpeg" alt="">
+                <img class="detail" src="../images/gamba.jpeg" alt="">
+                <img class="detail" src="../images/subway.jpeg" alt="">
+            </div>
+            <div class="categoryContainer">
+                <a class="category" href="storesPage.html"><img src="../images/shop.png" alt=""></a>
+                <img class="detail" src="../images/jarir.png" alt="">
+                <img class="detail" src="../images/extra.png" alt="">
+                <img class="detail" src="../images/virgin.png" alt="">
+            </div>
+            <div class="categoryContainer">
+                <a class="category" href="eComPage.html"><img src="../images/ecomm.png" alt=""></a>
+                <img class="detail" src="../images/noon.png" alt="">
+                <img class="detail" src="../images/namshi.png" alt="">
+                <img class="detail" src="../images/amazon.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- Footer section with contact information -->
+        <p>Contact us</p>
+        <address>
+            <p>Email: <a href="mailto:waffrlo@gmail.com">waffrlo@gmail.com</a></p>
+            <p>Address: King Abdulaziz university, Jeddah, Saudi Arabia</p>
+        </address>
+    </footer>
+</body>
+
+</html>
