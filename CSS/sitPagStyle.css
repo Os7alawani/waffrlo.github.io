@@ -1,0 +1,133 @@
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+
+}
+
+#logo {
+    width: 40px;
+    margin-right: 5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#FB {
+    margin-left: 5em;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Account Settings Styles*/
+.account-settings {
+    margin: 100px;
+}
+
+.account-settings h3 {
+    margin: 0;
+}
+
+.account-settings .settings-block {
+    border-style: solid;
+    padding: 20px;
+}
+
+.account-settings .settings-block h5 {
+    display: inline;
+}
+
+.account-settings .settings-block button {
+    float: right;
+}
+
+#FHr {
+    margin: 0px 50px 0px 50px;
+}
+
+/* Theme Styles*/
+.theme-settings {
+    margin: 100px;
+}
+
+.theme-settings h3 {
+    margin: 0;
+}
+
+.theme-settings .settings-block {
+    border-style: solid;
+    padding: 20px;
+}
+
+.theme-settings .settings-block h5 {
+    display: inline;
+}
+
+.theme-settings .settings-block button {
+    float: right;
+}
+
+#SHr {
+    margin: 0px 60px 0px 60px;
+}
+
+/* Notification Styles*/
+.notification-settings {
+    margin: 100px;
+}
+
+.notification-settings h3 {
+    margin: 0;
+}
+
+.notification-settings .settings-block {
+    border-style: solid;
+    padding: 20px;
+}
+
+.notification-settings .settings-block h5 {
+    display: inline;
+}
+
+.notification-settings .settings-block button {
+    float: right;
+}
+
+
+
+/*Footer Style*/
+footer {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 5px;
+}
+
+footer * {
+    text-align: left;
+    color: white;
+    margin-left: 30px;
+}
+
+footer p {
+    text-decoration: overline;
+}

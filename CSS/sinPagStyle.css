@@ -1,0 +1,43 @@
+div {
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+h3 {
+    text-align: left;
+    margin-left: 450pt;
+
+}
+
+#BaBut {
+    text-align: left;
+    margin-top: 7px;
+}
+
+div form {
+    border-style: groove;
+    padding: 2%;
+}
+
+form img {
+    width: 5%;
+    background-color: black;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 5px;
+}
+
+footer * {
+    text-align: left;
+    color: white;
+    margin-left: 30px;
+}
+
+footer>p {
+    text-decoration: overline;
+}

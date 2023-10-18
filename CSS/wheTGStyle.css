@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+
+}
+
+#logo {
+    width: 40px;
+    margin-right: 5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#FB {
+    margin-left: 5em;
+}
+
+section img {
+    width: 10%;
+    height: auto;
+    padding: 2%;
+
+}
+
+#heaContainer {
+    border-style: solid;
+    margin: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#heaContainer h1,
+#heaContainer h3 {
+    text-align: center;
+}
+
+.category {
+    width: 10%;
+    height: auto;
+    margin-left: 0;
+    padding-right: 0;
+}
+
+#CategoriesContainer {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 5px;
+}
+
+footer * {
+    text-align: left;
+    color: white;
+    margin-left: 30px;
+}
+
+footer>p {
+    text-decoration: overline;
+}

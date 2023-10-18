@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+
+}
+
+#logo {
+    width: 40px;
+    margin-right: 5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#FB {
+    margin-left: 5em;
+}
+
+.detail img {
+    width: 9em;
+    height: 11em;
+    margin-right: 20px;
+}
+
+section img {
+    width: 10%;
+    height: auto;
+    border-style: solid;
+    border-color: black;
+}
+
+section {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+#vImage {
+    flex: 0 0 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 27em;
+    z-index: -1;
+}
+
+#searchContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#offersContainer {
+    border-style: groove;
+    text-align: center;
+    margin: 10%;
+    margin-left: 170px;
+    margin-top: 3%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 5px;
+}
+
+footer * {
+    text-align: left;
+    color: white;
+    margin-left: 30px;
+}
+
+footer>p {
+    text-decoration: overline;
+}
